@@ -3,6 +3,8 @@ from azureml.widgets import RunDetails
 
 
 #connect to workspace from config.json file
+# to be continued from here... unable to sign in Azure portal on
+# laptop
 ws=Workspace.from_config("config.json")
 
 experiment = Experiment(workspace=ws, name='day1-experiment-hello')
